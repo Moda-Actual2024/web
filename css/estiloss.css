@@ -1,0 +1,164 @@
+
+
+h1 {
+    text-align:center;
+    margin-top: 10px;
+    margin-bottom:1px;
+    color: #221d20;
+    font-family: Georgia;
+    font-size: 60px;
+       }
+h2{
+    text-align: center;
+    margin-bottom: 15px;
+    color: #110f10;
+    font-family:Georgia;
+    font-size: 40px;
+    
+}
+body{
+    
+    width: 90%;
+    margin: 60px;
+    font-family: 'Times New Roman';
+    background-image: url(https://i.pinimg.com/564x/16/a0/91/16a09101d8f0d59e870c151f3f1d5d01.jpg);
+  
+    font-family:  Helvetica;
+    
+}
+
+
+
+
+div{
+  
+    border: 0px solid #1c1c1d;
+    border-radius: 1px;
+    margin-top: 1px;
+    padding: 10px 5px;
+    box-shadow: 0 0 8px 2px #000000;
+    text-align: leftx;
+    
+
+
+}
+.divprada{
+   box-shadow: 0 0 1px 1px cornsilk; 
+
+}
+
+   
+
+.Menu{
+    
+    padding: 20px 200px;
+    font-size: 30px;
+    word-spacing: 20px;
+    font-family: 'Courier New';
+    box-shadow: 0 0 5px 1px #888585;
+    
+   
+
+}
+.Menu a {
+    text-decoration: none;
+    color: #000000;
+}
+.Tende{
+    text-align: left;
+    font-family: Courier New;
+    font-size: 40px;
+    
+    padding: 2px 1px;
+
+
+}
+
+
+.TextT{
+
+   
+    color: #000000;
+    font-size: 50px;
+}
+.hh1{  
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 50px;
+    color: #000000;
+    font-family:Georgia; 
+}
+
+
+    
+   
+
+.Diseño2{
+    padding: 20px 80px;
+    font-size: 30px;
+    box-shadow: 0 0 10px 5px #687fb0;
+    border-radius:2px;
+    
+}
+.Vestidos01{
+    padding: 20px 80px;
+    font-size: 30px;
+    box-shadow: 0 0 8px 5px #000000;
+    border-radius:2px;
+    text-decoration: none;
+    
+
+}
+.Ves01{
+    font-size: 60px;
+    padding: 20px 80px;
+    color: #000000;
+    font-family: 'Courier New';
+    
+}
+.hp{
+    font-family: 'Courier New';
+    text-decoration: none;
+}
+.Ubi{
+ 
+    
+    font-size: 20px;
+    color: rgb(55, 54, 55);
+    text-align: left;
+}
+.Lentes{
+    text-decoration: none;
+    font-family: 'Courier New';
+    font-size: 20px;
+    color: #650707;
+
+
+
+}
+.body1{
+    background-image: url(https://i.pinimg.com/736x/f1/06/24/f10624ae045099b703be8a6f03ad727a.jpg);
+     
+}
+
+.body3{
+    background-image: url(https://i.pinimg.com/564x/e4/ff/e7/e4ffe74ec805a2d6d54a34425d6e4f34.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.TextT{
+    font-family: Georgia;
+    font-size: 28px;
+    padding: 20px 80px;
+    border-radius:2px;
+   
+    
+}
+.Pvesti{
+    color: #861f67;
+    font-size: 25px;
+   font-family: 'Courier New';
+}
+
+   
+

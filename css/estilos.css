@@ -1,0 +1,620 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+img{
+    max-width: 100%;
+    
+}
+
+header{
+    width: 100%;
+    /*position: fixed;*/
+    top: 0;
+    left: 0;
+}
+
+.header-superior{
+    
+    max-width: 1200%;
+    margin: auto;
+    display: flex;
+    background: #FFFFFF;
+    align-items: center;
+    justify-content: space-between ;
+    padding: 20px;
+   
+    
+}
+
+.logo{
+    font-size: 25px;
+    color: #111111 ;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.search input{
+    width: 300px;
+    padding: 10px;
+}
+
+.menu-container{
+    width: 100%;
+    height: 70px;
+    background: rgb(197, 136, 112);
+    padding: 0px 20px;
+}
+
+.menu{
+    max-width: 1200px;
+    margin: auto;
+    height: 100%;
+}
+
+nav{
+    height: 100%;
+}
+
+nav > ul{
+    height: 100%;
+    display: flex;
+}
+
+nav > ul > li{
+    height: 100%;
+    list-style: none;
+    position: relative;
+}
+
+nav > ul > li > a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: all 300ms ease ;
+}
+
+nav > ul > li > a:hover{
+    transform: scale(1.1);
+    background: rgb(144, 94, 74);
+    box-shadow: 0px 0px 10px 0px #111111;
+
+}
+
+nav ul li ul {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(20px);
+    background: #6c333363;
+    position: absolute;
+    top: 90px;
+    left: -5px;
+    padding: 14px 0px;
+    visibility: hidden;
+    opacity: 0;
+    box-shadow: 0px 0px 10px 0px #111111;
+    z-index: 10;
+    transition: all 300ms ease;
+    
+}
+
+nav ul li:hover ul {
+    visibility: visible;
+    opacity: 1;
+    top: 70px;
+
+    }
+
+    nav ul li ul li a{
+        display: block;
+        color: #FFFFFF;
+        padding: 6px;
+        padding-left: 14px;
+        margin-top: 10px;
+        font-size: 14px;
+        text-transform: uppercase;
+        transition: all 300ms ease;
+    }
+    nav ul li ul li a:hover{
+        background: rgb(144, 94, 74);
+        color: #111111;
+        transform: scale(1.1);
+        padding-left: 30px;
+        font-size: 14px;
+        box-shadow: 0px 0px 10px 0px #111111;
+
+    }
+
+
+
+
+
+
+
+nav .submenu{
+    position: relative;
+    display: flex;
+    margin-left: 800px;
+    margin-top: 25px;
+    
+
+}
+
+.submenu #carrito{
+    display: none;
+}
+
+.submenu:hover #carrito{
+    display: flex;
+    position: absolute;
+    right: 0;
+    backdrop-filter: blur(10px);
+    top: 10%;
+    z-index: 1;
+    background-color: #6c333363;
+    padding: 20px;
+    min-width: 400px;
+
+}
+
+table{
+    width: 100%;
+}
+
+th, td{
+    color: #FFFFFF;
+
+}
+
+.borrar{
+   background-color: #111111;
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.header-content{
+   display: flex;
+   justify-content:space-between ;
+   align-items: center; 
+   flex: 1;
+   padding: 0 200px;
+  
+
+
+}
+
+.header-img{
+    margin-top: 50px;
+    flex-basis: 50%;
+    text-align: center;
+   
+
+}
+
+.header-txt{
+    margin-left: 50px;
+    flex-basis: 50%;
+    text-align: center;
+}
+
+
+.header-txt h1{
+    font-size: 50px;
+    color: rgb(144, 94, 74);
+    font-family: 'Times New Roman', Times, serif;
+}
+.header-txt p{
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.ofert {
+    margin-top: 100px;
+    padding: 100px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 50px;
+
+}
+
+
+
+
+.ofert h4{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(144, 94, 74);
+
+}
+.ofert-1 {
+    display: flex;
+    align-items: center;
+    flex-basis: calc(33.3% - 15px);
+    background-color: #FFFFFF;
+    padding: 35px;
+
+}
+
+.ofert-img {
+   flex-basis: 50%; 
+   margin-right: 15px;
+
+}
+
+.ofert-img img{
+    width: 250px;
+    box-shadow: 0 0 10px;
+    padding: 2px;
+}
+
+.ofert-txt{
+    
+    flex-basis: 50%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.ofert h2{
+margin: 10px;
+font-size: 25px;
+}
+
+.ofert-txt h3{
+    color: #111111;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+
+.products{
+    padding: 10px 50;
+    text-align: center;
+}
+
+
+.product .colecc{
+    font-size: 20px;
+    color: rgb(106, 63, 50);
+
+}
+.products h2{
+    margin-top: 200px;
+    color: #111111;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.product-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   gap: 100px;
+
+    
+
+}
+
+.product{
+    text-align: center;
+    padding: 8px;
+    box-shadow: 0 0 10px ;
+    margin-top: 100px;
+}
+
+.product img{
+    width: 500px;
+    height: 360px;
+    margin-bottom: 22px;
+   
+}
+
+.product h3 a{
+    font-size: 18px;
+    color: #111111;
+
+
+
+
+
+}
+
+.icons{
+   
+   margin: 300px;
+    padding: 50px 0 100px 0 ;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.icon-1{
+
+    flex-basis: calc(33.3% - 30px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    background-color: #f5f5f5;
+}
+
+.icon-txt h3{
+    font-size: 20px;
+    color: #111111;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+
+.icons h3{
+    font-size: 15px;
+
+}
+.vestidos{
+    
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   
+    gap: 50px;
+    background-color: rgb(222, 210, 217);
+}
+.vestidos img{
+    margin-top: 100px;
+    width: 400px;
+    height: 500px;
+    box-shadow: 0 0 100px rgb(186, 100, 162);
+
+}
+
+.vestidos h3{
+    font-size: 20px;
+}
+
+.vestidos ul li {
+    font-size: 20px;
+
+}
+
+
+.trajes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+
+.trajes img{
+    width: 300px;
+    height: 400px;
+   
+    box-shadow: 0 0 3px; 
+}
+
+.calzados{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   
+    gap: 50px;
+    background-color: rgb(180, 178, 179);
+}
+
+.calzados img{
+    margin-top: 100px;
+    width: 400px;
+    height: 500px;
+    box-shadow: 0 0 100px rgb(80, 79, 79); 
+}
+
+.calzados h3{
+    font-size: 20px;
+}
+
+.calzados ul li{
+    font-size: 20px;
+}
+
+.bolsos{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   
+    gap: 50px;
+    background-color: rgb(234, 197, 197);
+    
+}
+
+.bolsos img{
+    margin-top: 100px;
+    width: 400px;
+    height: 500px;
+    box-shadow: 0 0 50px rgb(141, 87, 87);  
+}
+
+.bolsos h3{
+    font-size: 20px;
+}
+
+.bolsos ul li{
+    font-size: 20px;
+}
+
+
+.trajes{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   
+    gap: 50px;
+    background-color: rgb(201, 215, 240);
+    
+}
+
+.trajes img{
+    margin-top: 100px;
+    width: 400px;
+    height: 500px;
+    box-shadow: 0 0 50px rgb(106, 124, 189);  
+}
+
+.trajes h3{
+    font-size: 20px;
+}
+
+.trajes ul li{
+    font-size: 20px;
+}
+
+.accesorios{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   
+    gap: 50px;
+    background-color: rgb(255, 206, 200);
+    
+}
+
+.accesorios img{
+    margin-top: 100px;
+    width: 400px;
+    height: 500px;
+    box-shadow: 0 0 50px rgb(147, 111, 90);  
+}
+
+.accesorios h3{
+    font-size: 20px;
+}
+
+.accesorios ul li{
+    font-size: 20px;
+    }
+
+
+
+    h1{
+        margin-top: 50px;
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .Tende{
+        font-size: 30px;
+        
+    }
+
+
+.jeans{
+   margin-top: 100px;
+    display: flex;
+    width: 732px;
+    
+   
+}
+
+
+h2{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(144, 94, 74);
+}
+
+
+.pantalones img{
+    margin-top: 100px;
+    display: flex;
+    width: 700px;
+    
+  
+    
+    
+
+}
+
+.icons img{
+    width: 500px;
+    
+    
+}
+
+.footer{
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background: #ffffff;
+    color:#111111;
+    background-color: rgb(197, 136, 112);
+    height: 300px;
+   
+   
+    
+}
+
+.footer h3{
+    font-size: 20px;
+}
+
+.footer ul li a{
+    color: #111111;
+    font-size: 15px;
+    text-align: center;
+}
+
+.footer img{
+    width: 25px;
+    justify-content: space-between;
+    
+}
+
+.footer h2{
+    margin-top: 2px;
+    font-size: 20px;
+    color: rgb(106, 63, 50);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+   
+
+
